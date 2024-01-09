@@ -27,10 +27,10 @@ const Home = () => {
       <main className="w-full max-w-7xl px-4 mx-auto">
         <h1 className="font-bold text-2xl mb-4 mt-10 text-center">
           Produtos em alta
-        </h1>
+        </h1>.
 
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-5">
-          {products.map(({ id, title, description, price, cover }) => (
+          {products.map(({ id, title, price, cover }) => (
             <section key={id} className="w-full">
               <img
                 className="rounded-lg max-h-70 mb-2"
